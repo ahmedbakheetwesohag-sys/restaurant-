@@ -1,0 +1,102 @@
+.hero {
+height: 100vh;
+background: linear-gradient(to right, #0d6efd, #6610f2);
+color: white;
+display: flex;
+align-items: center;
+text-align: center;
+}
+nav{
+background-color: #11111116;
+border-radius: 20px;
+backdrop-filter: blur(3px);
+}
+
+.hero img {
+  margin: 20px;
+width: 400px;
+height: 40%;
+border-radius: 10%;
+ border: 5px solid white
+ 
+}
+
+.section-title {
+margin-bottom: 40px;
+font-weight: bold;
+}
+
+.project-card:hover {
+transform: scale(1.05);
+ transition: 0.3s;
+}
+
+footer {
+background: rgba(234, 29, 29, 0.221);
+color: #aaa;
+padding: 15px;
+ text-align: center;
+ backdrop-filter: blur(3px);
+}
+.progress {
+  height: 10px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  border-radius: 10px;
+}
+
+
+.bg-purple {
+  background-color: #a855f7;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.custom-card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.custom-card h1 {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.btn :hover{
+    color: #a855f7;
+
+}
+.dark-mode {
+  background: #111;
+  color: #fff;
+}
+.dark-mode a {
+  color: #a855f7;
+}
+
+.contact-box{
+    gap: 10px;
+    margin-left: 500px;
+}
+.card-body img{
+  width:100%;
+  height: 100%;
+}
+.img{
+  width:100%;
+  height: 100%;
+}
+.hero img:hover{
+   transform: scale(1.05);
+}
+
